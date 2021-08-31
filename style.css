@@ -1,0 +1,122 @@
+*{
+    margin: 2px;
+    padding: 0px;
+}
+.head{
+    margin-bottom:70px;
+    margin-top:70px;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: hsl(208.7, 68.3%, 19.8%);
+}
+.underline{
+    margin: auto;
+    width: 120px;
+    height: 5px;
+    background-color: hsl(205.2, 64.1%, 43.7%);
+    border: 2px solid hsl(205.2, 64.1%, 43.7%);
+    font-family: 'Roboto Mono', monospace;
+}
+.box{
+    
+    background-color: hsl(205.2, 64.1%, 43.7%);
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 100px;
+}
+
+ img{
+   position: relative;
+   z-index: 1;
+   margin-top: 5px;
+   margin-left: -9px;
+   background-color: red;
+   width: 150px;
+height: 150px;
+border-radius: 100px;
+}
+.author{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Roboto Mono', monospace;
+    color: hsl(208.7, 68.3%, 19.8%);
+}
+
+.role{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Roboto Mono', monospace;
+    color: hsl(205.2, 64.1%, 43.7%)
+}
+
+
+.content{
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.content p{
+    
+    margin-top:30px
+}
+.buttons{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-top: 30px;
+}
+.btn{
+    font-family: 'Roboto Mono', monospace;
+    color:hsl(205.2, 64.1%, 43.7%);
+    background: none;
+    border-style: none;
+    font-weight: bold;
+    width: 30px;
+    height: 40px;
+    font-size: 30px;
+    transition: background-color 1s, color 1s;
+    border: 2px solid hsl(205.2, 64.1%, 43.7%);
+    border-radius: 40px;
+    
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 182, 221);
+    border-style: none;
+}
+
+.surprise{
+    margin-top: 30px;
+    width: 100px;
+    height: 40px ;
+    background: none;
+    border-style: none;
+    border: 2px solid hsl(205.2, 64.1%, 43.7%);
+    border-radius: 10px;
+    font-weight: bold;
+    color: hsl(205.2, 64.1%, 43.7%);
+    background-color: rgba(255, 255, 255, 0.938);
+    transition: background-color 1s, color 1s;
+}
+.surprise:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 182, 221);
+    border-style: none;
+} 
+.container{
+    
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(255, 251, 251);
+    box-shadow: 1px 1px 2px rgb(206, 199, 199), -1px -1px 2px rgb(206, 199, 199);
+}
+body{
+    background-color: rgb(227, 250, 253);
+    margin-bottom: 100px;
+}
